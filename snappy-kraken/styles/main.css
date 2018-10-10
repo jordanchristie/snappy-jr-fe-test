@@ -1,0 +1,122 @@
+section {
+  padding: 3em 0; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-family: "Lato", sans-serif; }
+
+.hero {
+  text-align: center;
+  height: 100vh;
+  background: url("../assets/bg_video.png") no-repeat center center;
+  background-size: cover; }
+  .hero .hero-text {
+    display: flex;
+    flex-flow: column wrap;
+    margin-top: 5%;
+    width: 65%; }
+  .hero h1 {
+    color: #006280;
+    font-family: "Playfair Display", serif; }
+  .hero h3 {
+    color: #C9540A; }
+
+.blue {
+  background: #006280;
+  color: white;
+  text-align: center;
+  font-weight: 300; }
+  .blue .blue-text {
+    width: 65%; }
+  .blue h3 {
+    font-style: italic; }
+  .blue ul li {
+    text-align: left; }
+    .blue ul li span {
+      font-weight: 700; }
+
+.jumbotron {
+  width: 100%;
+  border-radius: 0; }
+  .jumbotron h3 {
+    font-family: "Playfair Display", serif;
+    font-weight: 700; }
+  .jumbotron span {
+    color: #C9540A; }
+
+form h3 {
+  text-align: center;
+  margin-bottom: 1em;
+  font-family: "Playfair Display", serif;
+  font-weight: 700; }
+
+form .form-group input {
+  width: 100%; }
+
+form button {
+  margin-top: 1em; }
+
+.cta-button {
+  background: #C9540A;
+  color: #fff;
+  font-size: 1.25em;
+  padding: .5em 1em;
+  font-weight: 400; }
+
+.testimonials {
+  background: #fdf6f2; }
+  .testimonials h3 {
+    font-family: "Playfair Display", serif;
+    color: #C9540A;
+    text-align: center;
+    font-weight: 700; }
+  .testimonials h4 {
+    margin-top: 1em;
+    font-weight: 700; }
+  .testimonials button {
+    display: block;
+    margin: 0 auto; }
+
+#modal {
+  display: none; }
+
+.modal-active {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #006280;
+  border: 5px solid #C9540A;
+  opacity: 0.9;
+  padding: 2em;
+  color: #fff;
+  z-index: 100; }
+  .modal-active h1 {
+    opacity: 0.8;
+    height: 100%; }
+
+footer {
+  display: flex;
+  flex-flow: column; }
+
+small {
+  text-align: center;
+  margin: 1em auto;
+  width: 75%; }
+
+@media screen and (min-width: 657px) {
+  .hero {
+    height: 60vh; } }
+
+@media screen and (min-width: 768px) {
+  .jumbotron {
+    width: 18em; }
+  form h3 {
+    font-weight: 800;
+    text-align: left; }
+  form .form-group input {
+    width: 80%;
+    border: 1px solid black; } }
